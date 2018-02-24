@@ -38,7 +38,6 @@ public class MainActivity extends AppCompatActivity {
         public void onServiceConnected(ComponentName name, IBinder service) {
             Toast.makeText(MainActivity.this, "启动成功", Toast.LENGTH_SHORT).show();
             iPersonInterface=IPersonInterface.Stub.asInterface(service);
-
         }
 
         @Override
