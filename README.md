@@ -1,2 +1,2 @@
 # AIDLDemo
-Aidl使用
+Aidl使用.
